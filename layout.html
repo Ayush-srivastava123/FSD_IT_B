@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <style>
+          body{
+            background-color: rgb(237, 234, 7);
+            font-family: 'Times New Roman', Times, serif;
+         }
+        .container{
+            margin: auto;
+            padding: 10px;
+            width: 50%;
+         }
+            </style>
+    <div class="container">
+    <h1>Register</h1>
+    <p>please fill this form</p>
+    <hr>
+    <form name="register" method="post" action="/register">
+    <label for="email">
+        <b>Email</b>
+    </label>
+    <input type="email" placeholder="enter valid email" id="email">
+    <label for="Password">
+        <b>Password</b>
+    </label>
+    <input type="password" placeholder="enter password">
+    <label for="confirm password">
+        <b>Confirm password</b>
+    </label>
+     <input type="password" placeholder="Reenter password">
+     <br>
+
+     <input type="submit" value="REGISTER"/>
+     <input type="submit" value="Reset"/>
+</form>
+</div>
+</body>
+</html>
